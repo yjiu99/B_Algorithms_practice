@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class B10158 {
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
-        int W = sc.nextInt();
-        int H = sc.nextInt();
-        int P = sc.nextInt();
-        int Q = sc.nextInt();
-        int T = sc.nextInt();
+        int W = sc.nextInt(); // 가로 길이
+        int H = sc.nextInt(); // 세로 길이
+        int P = sc.nextInt(); // 초기 x
+        int Q = sc.nextInt(); // 초기 y
+        int T = sc.nextInt(); // t 시간
 
 //        int timeX = T % (2*W);
 //        int currentX = P;
